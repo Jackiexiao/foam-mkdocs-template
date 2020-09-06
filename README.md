@@ -5,6 +5,8 @@
 * Share your **foam/obsidian/markdown** notes in a simple and intuitive way ! Support [[roamlike link]] 
 * 用简单和直观的方式分享你的foam/obsidian/markdown笔记！支持[[链接]]解析。
 
+This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [mkdocs-material](https://squidfunk.github.io/mkdocs-material/), [mkdocs-roamlinks-plugin](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin) and many mkdocs plugins.
+
 
 ## Demo-样例
 
