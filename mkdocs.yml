@@ -5,7 +5,7 @@
 site_name: Foam-mkdocs-template
 theme:
   name: material
-  favicon: attachment/portrait.png
+  #  favicon: attachment/portrait.png
   features:
     - navigation.expand 
     - tabs 
