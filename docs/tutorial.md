@@ -4,10 +4,11 @@
 * You can share your foam/obsidian note using this template
 * 用简单和直观的方式分享你的foam/obsidian/markdown笔记！支持[[链接]]解析，push自动部署页面，使用这个博客模板即可。
 
-## Demo-样例
+## Demo
 
 * [github page](https://jackiexiao.github.io/blog/)
 * [gitee page国内访问更快](https://jackiegeek.gitee.io/blog/)
+
 
 ## Support syntax支持的语法
 
@@ -17,8 +18,7 @@
 | `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
 | `![[image.png]]`           | `![image.png](../image/imag.png)`      |
 | `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
-| haven't support syntax below |暂不支持 |
-| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
+| `[[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
 
 ## Usage用法
 

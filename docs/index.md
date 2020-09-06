@@ -7,8 +7,11 @@ Welcome to Foam-mkdocs-template! [[#support roamlinks]]!
 
 ## Support roamlinks
 
-| ori | convert|
-| -- | -- |
+| origin                  | convert                             |
+| ----------------------- | ----------------------------------- |
+| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
 | `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
 | `![[image.png]]`           | `![image.png](../image/imag.png)`      |
-| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
+| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`|
+| `[[Git Flow#Heading]]`     |  `[Git Flow](../software/git_flow.md#heading)` |
+
