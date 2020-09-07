@@ -21,7 +21,6 @@ This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [m
 | `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
 | `![[image.png]]`           | `![image.png](../image/imag.png)`      |
 | `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
-| haven't support syntax below |暂不支持 |
 | ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
 
 
