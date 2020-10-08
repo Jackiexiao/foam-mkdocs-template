@@ -1,5 +1,5 @@
 # Foam-mkdocs-template
-[中文文档](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+[**中文文档**](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
 
 ![foam-mkdocs-template-png](demo-mkdocs.png)
 
@@ -12,17 +12,6 @@ This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [m
 
 * [github page](https://jackiexiao.github.io/foam-mkdocs-template/)
 * 国内访问[gitee page](https://jackiegeek.gitee.io/foam-mkdocs-template/)
-
-## Support syntax
-This template will convert roam/obsidian/foam like links to web support links
-
-| origin                  | convert                             |
-| ----------------------- | ----------------------------------- |
-| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
-| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
-| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
-| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
-| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
 
 
 ## Usage：Deploy to github page
@@ -46,3 +35,15 @@ pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
 mkdocs serve 
 ```
 Then visit `http://127.0.0.1:8000/`
+
+## Support syntax
+This template will convert roam/obsidian/foam like links to web support links
+
+| origin                  | convert                             |
+| ----------------------- | ----------------------------------- |
+| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
+| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
+| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
+| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
+| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
+

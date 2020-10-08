@@ -1,28 +1,16 @@
 # Foam-mkdocs-template
+* 通过github/gitee page生成网页，分享你的foam/obsidian/markdown笔记！
+* 省事一点可以用obsidian publish，8美刀/月
+
 [English Version](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README.md)
 
 ![foam-mkdocs-template-png](demo-mkdocs.png)
-
-* 通过github/gitee page生成网页，分享你的foam/obsidian/markdown笔记！
-* 省事一点可以用obsidian publish，8美刀/月
 
 
 ## 样例
 
 * [github page](https://jackiexiao.github.io/foam-mkdocs-template/)
 * 国内访问[gitee page](https://jackiegeek.gitee.io/foam-mkdocs-template/)
-
-## 支持的语法
-这个模板会将markdown中的链接解析成网页支持的格式，支持的格式如下
-
-| 原始                  | 转换后                             |
-| ----------------------- | ----------------------------------- |
-| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
-| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
-| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
-| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
-| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
-
 
 ## 使用方法：部署到github page生成博客网站
 
@@ -60,3 +48,14 @@ mkdocs serve
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs-roamlinks-plugin](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin)
+
+## 支持的语法
+这个模板会将markdown中的链接解析成网页支持的格式，支持的格式如下
+
+| 原始                  | 转换后                             |
+| ----------------------- | ----------------------------------- |
+| `[Git Flow](git_flow.md)` | `[Git Flow](../software/git_flow.md)` |
+| `[[Git Flow]]`            | `[Git Flow](../software/git_flow.md)` |
+| `![[image.png]]`           | `![image.png](../image/imag.png)`      |
+| `[[#Heading identifiers]]` | `[Heading identifiers in HTML](#heading-identifiers-in-html)`
+| ` [[Git Flow#Heading]]` | `[Git Flow](../software/git_flow.md#heading)` |
