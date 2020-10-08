@@ -4,6 +4,7 @@
 
 [English Version](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README.md)
 
+弄好之后你的网站长这个样子：
 ![foam-mkdocs-template-png](demo-mkdocs.png)
 
 
@@ -15,7 +16,7 @@
 ## 使用方法：部署到github page生成博客网站
 
 1. 复制Fork或者下载这个仓库
-2. 将你的文档添加到`docs`下面（原来的文件可以全部删掉），在`docs`吓添加一个`index.md`作为网站主页
+2. 将你的文档添加到`docs`下面（原来的文件可以全部删掉），在`docs`吓添加一个`index.md`作为网站主页（必须有）
 3. 进入`mkdocs.yml`修改`site_name`为你的网站名称，这个文件包含了你网站的配置，具体配置教程见（可以先使用默认配置，够用了，有时间再自己折腾）：
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
