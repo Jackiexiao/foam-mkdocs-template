@@ -1,4 +1,4 @@
-# Foam-mkdocs-template
+# Foam/Obsidian-mkdocs-template
 [**中文文档**](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
 
 ![foam-mkdocs-template-png](demo-mkdocs.png)
