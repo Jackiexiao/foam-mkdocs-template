@@ -1,0 +1,24 @@
+/***************************************/
+/*    at a rule line before ul list    */
+/***************************************/
+
+ul ul { position: relative; }
+ul ul::before {
+  content:'';
+  border-left: 1px solid var(--border-color);
+  position: absolute;
+}
+ul ul::before { left: -1em; top: 0; bottom: 0; }
+
+/* rule line when there are checkboxes*/
+ul .task-list-item ul::before {left: 0.15em !important}
+
+/* indentation guides in edit mode */  /* enabled 2020-09-15 */
+.cm-hmd-list-indent .cm-tab, ul ul { position: relative; }
+.cm-hmd-list-indent .cm-tab::before, ul ul::before {
+  content:'';
+  border-left: 1px solid var(--border-color);
+  position: absolute;
+}
+.cm-hmd-list-indent .cm-tab::before { left: 0.5em; top: -5px; bottom: -4px; }
+ul ul::before { left: -1em; top: 0; bottom: 0; }

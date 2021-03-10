@@ -1,0 +1,33 @@
+-   DNA 文章 故事 内涵 转变
+    -   提取DNA
+		-   productivity
+			-   便签 TODO GTD PARA SMART
+			-   有道 notion [[Obsidian]]
+			-   思维导图 解构 标准库 内化
+		-   文艺
+			-   文艺 摄影 手绘 vlog 穿搭 建模 心理学 chill
+			-   应用汇 酷安 taptap Pinterest YouTube
+			-   手机论坛 blender nation
+			-   eagle
+			-  编导 游戏故事 kindle vlogger 插画 tut artist designer
+		-  身份认同
+			-   身份认同 故事 爱情 承认恋爱 羞耻 男子汉
+			-   好看的人 化妆 外表 为什么总是渣 不敢 别人很厉害
+    
+    -   写文章——数据库自动完善（循环）
+        
+        -   notion 的曼陀罗大纲法—顺序可变更
+            -   发散方向
+        -   [[Obsidian]]自动连接
+            -   导出流程
+            -   连接网站 集合
+    -   目标
+        
+        -   超智能体
+        -   油管workflow
+        -   blender
+            -   Southern Shotty
+            -   ducky3d
+            -   yansculpt
+	 	-   流程优化
+			-   标准库写作演示

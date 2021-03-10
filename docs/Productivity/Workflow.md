@@ -1,0 +1,22 @@
+- Web
+	[![Workona](![[Workona.png]])](https://workona.com/)
+	- Article
+	- Blender
+	- Design
+	- Research
+	- 	曼陀罗 mind map
+- Link
+	- 	pockets
+	- 	notion
+	- 	kindle
+	- 	clipboard
+	- Other	
+	- phone
+	- photo
+	- timelapse
+	- inbox
+- Daily
+	- music
+	- ![[Pasted image 20210309154939.png]]
+- fire place
+- rainy day

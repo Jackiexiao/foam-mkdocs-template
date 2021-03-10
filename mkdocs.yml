@@ -2,7 +2,7 @@
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: Foam-mkdocs-template
+site_name: 志朋的第二大脑
 theme:
   name: material
   #  favicon: attachment/portrait.png
