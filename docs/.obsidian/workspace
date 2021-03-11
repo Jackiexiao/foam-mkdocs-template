@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "31a4fc3ab3dc650c",
+        "id": "5b7fd13117869bee",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Productivity/Obsidian.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Productivity/Obsidian.md"
+              }
             }
           },
           {
@@ -93,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Productivity/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +114,15 @@
     "width": 614.5
   },
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Untitled.md",
-    "Article/Git page.md",
-    "Daily/Inbox.md",
-    "Inbox/inbox.md",
     "Productivity/Obsidian.md",
-    "3.9.md",
-    "手机自动同步.md",
-    "工作焦虑.md",
-    "ZZZ-File/Workona.png"
+    "Inbox/斑斓.md",
+    "消费主义.md",
+    "mind map.md",
+    "Pasted image 20210309154939.png",
+    "Daily/3.9 1.md",
+    "Daily/3.9.md",
+    "Daily/2021-03-06.md",
+    "页面历史.md",
+    "手机自动同步.md"
   ]
 }
