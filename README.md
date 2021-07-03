@@ -18,7 +18,7 @@ This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [m
 
 1. fork this repository 
 2. add your documents to `docs` , `docs/index.md` is the main page of the website
-3. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information
+3. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information(for example, you may want to change language to en)
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
 4. push to github, 
