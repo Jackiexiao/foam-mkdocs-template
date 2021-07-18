@@ -17,13 +17,14 @@ This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [m
 ## Usage：Deploy to github page
 
 1. fork this repository 
-2. add your documents to `docs` , `docs/index.md` is the main page of the website
-3. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information(for example, you may want to change language to en)
+2. copy ` .github mkdocs.yml requirements.txt` to your repo, and create `docs` directory 
+3. add your documents to `docs` , `docs/index.md` is the main page of the website
+4. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information(for example, you may want to change language to en)
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
-4. push to github, 
-5. go to github setting, open github page, choose `gh-pages` branch, wait a moment, then visit `http://<your-github-username.github.io/<your-repo>`, for example:`jackiexiao.github.io/blog/`
-5. Done! That's all! Have fun!
+5. push to github, ps: before push to github, you may want to preview your website locally, please view [depoly locally](#depoly-locally)
+6. go to github setting, open github page, choose `gh-pages` branch, wait a moment, then visit `http://<your-github-username.github.io/<your-repo>`, for example:`jackiexiao.github.io/blog/`
+7. Done! That's all! Have fun!
 
 Thx to `Github Action`, it make deploy a blog so easy, all you need todo is modify and push your file
 
@@ -31,7 +32,7 @@ Thx to `Github Action`, it make deploy a blog so easy, all you need todo is modi
 
 The simplest way: Enter your local repo directory, make sure your python > 3.6
 ```
-pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
+pip install -U -r requirements.txt
 mkdocs serve 
 ```
 Then visit `http://127.0.0.1:8000/`
