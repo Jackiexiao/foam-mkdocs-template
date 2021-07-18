@@ -22,7 +22,7 @@ This template use [mkdocs](https://www.mkdocs.org/user-guide/configuration/), [m
 4. open `mkdocs.yml`, modify `site_name` to your website name, this file is the setting of website, visit link below to get more information(for example, you may want to change language to en)
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
-5. push to github, ps: before push to github, you may want to preview your website locally, please view [depoly locally](#depoly-locally)
+5. push to github, ps: before push to github, you may want to preview your website locally, please view [deploy locally](#deploy-locally)
 6. go to github setting, open github page, choose `gh-pages` branch, wait a moment, then visit `http://<your-github-username.github.io/<your-repo>`, for example:`jackiexiao.github.io/blog/`
 7. Done! That's all! Have fun!
 
