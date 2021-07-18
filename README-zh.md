@@ -16,13 +16,14 @@
 ## 使用方法：部署到github page生成博客网站
 
 1. 复制Fork或者下载这个仓库
-2. 将你的文档添加到`docs`下面（原来的文件可以全部删掉），在`docs`吓添加一个`index.md`作为网站主页（必须有）
-3. 进入`mkdocs.yml`修改`site_name`为你的网站名称，这个文件包含了你网站的配置，具体配置教程见（可以先使用默认配置，够用了，有时间再自己折腾）：
+2. 复制 `.github  mkdocs.yml requirements.txt` 到你的仓库下面，新建一个 docs 文件夹
+3. 将你的文档添加到`docs`下面（原来的文件可以全部删掉），在`docs`吓添加一个`index.md`作为网站主页（必须有）
+4. 进入`mkdocs.yml`修改`site_name`为你的网站名称，这个文件包含了你网站的配置，具体配置教程见（可以先使用默认配置，够用了，有时间再自己折腾）：
 * [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 * [mkdocs](https://www.mkdocs.org/user-guide/configuration/)
-4. push提交修改到github
-5. 到你的github仓库-setting中设置github page，选择分支-gh-pages，等一小会，就会有网址啦，比如我的是`jackiexiao.github.io/blog/`
-6. 大功告成！
+5. push提交修改到github
+6. 到你的github仓库-setting中设置github page，选择分支-gh-pages，等一小会，就会有网址啦，比如我的是`jackiexiao.github.io/blog/`
+7. 大功告成！
 
 之所以git push就可以自动部署网页，生成博客，是因为github action在起作用！感兴趣可以自己搜索一下。
 
@@ -38,7 +39,7 @@
 
 经常性的，我们需要本地部署文档，来进行频繁的修改和预览。最简单的方法是进入你的文件夹（仓库本地地址，也就是`docs`文件夹的上一级），你的python需要3.6以上
 ```
-pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
+pip install -U -r requirements.txt
 mkdocs serve 
 ```
 然后访问`http://127.0.0.1:8000/`就可以了
