@@ -1,0 +1,627 @@
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Tutorial教程 - Foam-mkdocs-template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tutorial教程" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Foam-mkdocs-template" class="md-header-nav__button md-logo" aria-label="Foam-mkdocs-template">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Foam-mkdocs-template
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Tutorial教程
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href=".." class="md-tabs__link md-tabs__link--active">
+        Foam-mkdocs-template
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../foo-tab/example/" class="md-tabs__link">
+          Foo tab
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Foam-mkdocs-template" class="md-nav__button md-logo" aria-label="Foam-mkdocs-template">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Foam-mkdocs-template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Foam-mkdocs-template" class="md-nav__link">
+      Foam-mkdocs-template
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../test/" title="Test Link" class="md-nav__link">
+      Test Link
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Tutorial教程
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Tutorial教程" class="md-nav__link md-nav__link--active">
+      Tutorial教程
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demo" class="md-nav__link">
+    Demo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-syntax支持的语法" class="md-nav__link">
+    Support syntax支持的语法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage用法" class="md-nav__link">
+    Usage用法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#使用方法部署到github-page生成博客网站" class="md-nav__link">
+    使用方法：部署到github page生成博客网站
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#本地部署" class="md-nav__link">
+    本地部署
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#同步发布到gitee-page加速国内访问" class="md-nav__link">
+    同步发布到Gitee page加速国内访问
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usagedeploy-to-github-page" class="md-nav__link">
+    Usage：Deploy to github page
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-locally" class="md-nav__link">
+    Deploy Locally
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Foo tab
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Foo tab" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Foo tab
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../foo-tab/example/" title="An example Page" class="md-nav__link">
+      An example Page
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../foo-tab/%E6%96%87%E7%AB%A0/" title="文章" class="md-nav__link">
+      文章
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demo" class="md-nav__link">
+    Demo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support-syntax支持的语法" class="md-nav__link">
+    Support syntax支持的语法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage用法" class="md-nav__link">
+    Usage用法
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#使用方法部署到github-page生成博客网站" class="md-nav__link">
+    使用方法：部署到github page生成博客网站
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#本地部署" class="md-nav__link">
+    本地部署
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#同步发布到gitee-page加速国内访问" class="md-nav__link">
+    同步发布到Gitee page加速国内访问
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usagedeploy-to-github-page" class="md-nav__link">
+    Usage：Deploy to github page
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-locally" class="md-nav__link">
+    Deploy Locally
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="tutorial教程">Tutorial教程<a class="headerlink" href="#tutorial教程" title="Permanent link">#</a></h1>
+<ul>
+<li>Share your <strong>foam/obsidian/markdown</strong> notes in a simple and intuitive way ! Support [[roamlike link]] </li>
+<li>You can share your foam/obsidian note using this template</li>
+<li>用简单和直观的方式分享你的foam/obsidian/markdown笔记！支持[[链接]]解析，push自动部署页面，使用这个博客模板即可。</li>
+</ul>
+<h2 id="demo">Demo<a class="headerlink" href="#demo" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://jackiexiao.github.io/blog/">github page</a></li>
+<li><a href="https://jackiegeek.gitee.io/blog/">gitee page国内访问更快</a></li>
+</ul>
+<h2 id="support-syntax支持的语法">Support syntax支持的语法<a class="headerlink" href="#support-syntax支持的语法" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>origin原始</th>
+<th>convert转换后</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[Git Flow](git_flow.md)</code></td>
+<td><code>[Git Flow](../software/git_flow.md)</code></td>
+</tr>
+<tr>
+<td><code>[[Git Flow]]</code></td>
+<td><code>[Git Flow](../software/git_flow.md)</code></td>
+</tr>
+<tr>
+<td><code>![[image.png]]</code></td>
+<td><code>![image.png](../image/imag.png)</code></td>
+</tr>
+<tr>
+<td><code>[#Heading identifiers](#heading-identifiers)</code></td>
+<td><code>[Heading identifiers in HTML](#heading-identifiers-in-html)</code></td>
+</tr>
+<tr>
+<td><code>[[Git Flow#Heading]]</code></td>
+<td><code>[Git Flow](../software/git_flow.md#heading)</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage用法">Usage用法<a class="headerlink" href="#usage用法" title="Permanent link">#</a></h2>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">中文</label><div class="tabbed-content">
+<h2 id="使用方法部署到github-page生成博客网站">使用方法：部署到github page生成博客网站<a class="headerlink" href="#使用方法部署到github-page生成博客网站" title="Permanent link">#</a></h2>
+<ol>
+<li>复制Fork或者下载这个仓库</li>
+<li>将你的文档添加到<code>docs</code>下面（原来的文件可以全部删掉），在<code>docs</code>吓添加一个<code>index.md</code>作为网站主页</li>
+<li>进入<code>mkdocs.yml</code>修改<code>site_name</code>为你的网站名称，这个文件包含了你网站的配置，具体配置教程见：<ul>
+<li><a href="https://squidfunk.github.io/mkdocs-material/">mkdocs-material</a></li>
+<li><a href="https://www.mkdocs.org/user-guide/configuration/">mkdocs</a></li>
+</ul>
+</li>
+<li>push提交修改到github，等一小会，就可以到<code>你的github用户名.github.io/你的仓库名/</code>下访问博客了，我的是<code>jackiexiao.github.io/blog/</code></li>
+<li>大功告成！</li>
+</ol>
+<p>之所以git push就可以自动部署网页，生成博客，是因为github action在起作用！感兴趣可以自己搜索一下。</p>
+<h2 id="本地部署">本地部署<a class="headerlink" href="#本地部署" title="Permanent link">#</a></h2>
+<p>经常性的，我们需要本地部署文档，来进行频繁的修改和预览。最简单的方法是进入你的文件夹（仓库本地地址，也就是<code>docs</code>文件夹的上一级），你的python需要3.6以上<br />
+<div class="highlight"><pre><span></span><code>pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
+mkdocs serve 
+</code></pre></div><br />
+然后访问<code>http://127.0.0.1:8000/</code>就可以了</p>
+<h2 id="同步发布到gitee-page加速国内访问">同步发布到Gitee page加速国内访问<a class="headerlink" href="#同步发布到gitee-page加速国内访问" title="Permanent link">#</a></h2>
+<p>步骤很简单，比如这个<a href="https://jackiegeek.gitee.io/blog/">博客</a>，在Gitee的首页下新建仓库，在页面下方选择<code>导入已有仓库</code>, 填写你的github仓库地址，然后点击<code>服务</code>-&gt;<code>Gitee Page</code>-&gt;<code>部署分支</code>-&gt;选择<code>gh-pages</code>，点击<code>更新</code>就完成啦！几秒后刷新你就可以看到自己gitee apge的链接了。不过要注意的是，每次更新Gitee page，你需要3个步骤</p>
+<ol>
+<li>更新你的github仓库</li>
+<li>在Gitee中手动点击同步github</li>
+<li>按前面的步骤，再次部署Gitee Page </li>
+</ol>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">English</label><div class="tabbed-content">
+<h2 id="usagedeploy-to-github-page">Usage：Deploy to github page<a class="headerlink" href="#usagedeploy-to-github-page" title="Permanent link">#</a></h2>
+<ol>
+<li>fork this repository </li>
+<li>add your documents to <code>docs</code> , <code>docs/index.md</code> is the main page of the website</li>
+<li>open <code>mkdocs.yml</code>, modify <code>site_name</code> to your website name, this file is the setting of website, visit link below to get more information<ul>
+<li><a href="https://squidfunk.github.io/mkdocs-material/">mkdocs-material</a></li>
+<li><a href="https://www.mkdocs.org/user-guide/configuration/">mkdocs</a></li>
+</ul>
+</li>
+<li>push to github, wait a moment, then visit <code>http://&lt;your-github-username.github.io/&lt;your-repo&gt;</code>, for example:<code>jackiexiao.github.io/blog/</code></li>
+<li>Done! That's all! Have fun!</li>
+</ol>
+<p>Thx to <code>Github Action</code>, it make deploy a blog so easy, all you need todo is modify and push your file</p>
+<h2 id="deploy-locally">Deploy Locally<a class="headerlink" href="#deploy-locally" title="Permanent link">#</a></h2>
+<p>The simplest way: Enter your local repo directory, make sure your python &gt; 3.6<br />
+<div class="highlight"><pre><span></span><code>pip install mkdocs mkdocs-material mkdocs-roamlinks-plugin
+mkdocs serve 
+</code></pre></div><br />
+Then visit <code>http://127.0.0.1:8000/</code></p>
+</div>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../test/" title="Test Link" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Test Link
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../foo-tab/example/" title="An example Page" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                An example Page
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
